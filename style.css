@@ -3,12 +3,12 @@
 body {
   font-family: 'Raleway', sans-serif;
   margin: 0 auto;
-  padding-top: 1em;
+  max-width: 1400px;      /*padding-top: 1em;*/
 }
 
 #doc_page {
   margin: 0 auto;
-  max-width: 1440px;
+  max-width: 1400px;
 }
 /*header part*/
 header {
@@ -21,7 +21,7 @@ header {
 }
 
 header img {
-  width: 100px;
+  width: 100px; 
   align-self: center;
 }
 
@@ -45,7 +45,7 @@ nav {
  display: flex;
  color: blue;
  padding: 2rem;
- font-weight: 500;
+ /*font-weight: 500;*/
  text-align: center;
  transition-duration: 0.1;
 }
@@ -60,14 +60,15 @@ nav {
   align-items: center;
   display: flex;
   justify-content: center; 
-  border-bottom: 2px transparent solid;
+  border-bottom: 0px transparent solid; /*2*/
   border-top: 3px transparent solid;
+  border-radius: 2px solid white;
 } 
 
 
 
 .button_nav:hover{
-  border-top: 3px solid #0065FC;
+  border-top: 4px solid #0065FC; /*2*/
   font-weight: bold;
   color: #0065FC;
 }
@@ -82,7 +83,7 @@ nav {
 }
 
 #searchsec {
-  width: 95%;
+  width: 100%;
   margin: auto;
   max-width: 1440px;
 
@@ -203,7 +204,7 @@ li:hover .logofilter {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-column-gap: 40px;
-  width: 95%;
+  /* width: 95%; */
   margin: auto;
 }
 
@@ -566,7 +567,7 @@ a.link_footer:hover {
 }
 
 /*responsive mobile*/
-@media screen and (max-width: 1400px)
+@media screen and (max-width: 1440px) and (max-width: 2560px)
 {
   body
   {
@@ -576,12 +577,13 @@ a.link_footer:hover {
   {
     max-width: 1400px;
     width: 96%;
-    margin: auto;
+    /*margin: auto;*/
   }
-  #search
+  #searchsec
   {
     width: 96%;
     margin: auto;
+    max-width: 1400px;
   }
   .bloc_lodging
   {
@@ -782,13 +784,13 @@ a.link_footer:hover {
 
   header 
   {
-    margin: 0;
+    margin: 0px;
     width: 100%;
   }
 
   nav 
   {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 1fr;
   }
 
@@ -814,9 +816,9 @@ a.link_footer:hover {
   #link_nav_bas{
     border-top: none;
     border-bottom: 3px solid #F2F2F2;
-    width: 55%;
-    height: 95%;
-    margin: 15%;
+    /*width: 55%;*/
+    /*height: 95%;*/
+    /*margin: 15%;*/
     align-items: center;
   }
 
@@ -827,8 +829,8 @@ a.link_footer:hover {
 
   #searchsec 
   {
-    padding: 0 20px;
-    width: auto;
+    padding:0 20px;
+    width: auto;   
   }
 
   #searchsec h2 
@@ -965,7 +967,8 @@ a.link_footer:hover {
   #activitysec 
   {
     width: auto;
-    margin-bottom: 50px;
+    width: 95%;
+    margin-bottom: 3px solid lightgrey; /*50px*/
   }
 
   #bloc_media 
@@ -1006,6 +1009,7 @@ a.link_footer:hover {
     display: flex;
     align-items: center;
     margin-top: -5px;
+    margin-right: 50px;
   }
 
   footer 
