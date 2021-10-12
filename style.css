@@ -968,7 +968,7 @@ a.link_footer:hover {
   {
     width: auto;
     width: 95%;
-    margin-bottom: 3px solid /*lightgrey;50px*/
+    margin-bottom: 3px solid;
   }
 
   #bloc_media 
