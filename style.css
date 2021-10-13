@@ -355,7 +355,8 @@ h2#title_activity {
   margin-top: 30px;
 }
 
-#bloc_media {
+#bloc_media 
+{ 
   display: none;
 }
 
@@ -662,7 +663,7 @@ a.link_footer:hover {
     display: none;
   }
 
-  #bloc_media 
+  #bloc_media
   {
     display: flex;
     width: 100%;
@@ -745,8 +746,7 @@ a.link_footer:hover {
 
   #bloc_media 
   {
-    max-width: 1020px;
-    width: 100%;
+    flex-wrap: wrap;
   }
 
   #vignette11, #vignette12, #vignette13, #vignette14, #vignette15, #vignette16 
@@ -967,7 +967,7 @@ a.link_footer:hover {
   #activitysec 
   {
     width: auto;
-    width: 95%;
+    /*width: 95%;*/
     margin-bottom: 3px;
   }
 
