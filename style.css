@@ -609,7 +609,7 @@ a.link_footer:hover {
 {
   body 
   {
-    margin-top: 30px;
+    /*margin-top: 30px;*/
   }
 
   header 
@@ -749,6 +749,7 @@ a.link_footer:hover {
   #popular 
   {
     border-radius: 20px;
+    margin-left: 35px;
   }
   
   .bloc_popular 
@@ -799,9 +800,10 @@ a.link_footer:hover {
 
   #bloc_activity 
   {
-    flex-direction: column;
+    /*flex-direction: column;*/
     width: auto;
     padding: 0 20px;
+    margin-left: 5px;
   }
 
   .vignette 
@@ -819,13 +821,15 @@ a.link_footer:hover {
   img.photo_activites 
   {
     height: 190px;
-    max-width: 767px;
+    max-width: 100px;/*767*/
     width: 100%;
   }
 
   #photo1, #photo2, #photo3, #photo4, #photo5, #photo6
   {
     max-height: 190px;
+    width: 100%;
+    max-width: 100%;
   }
 
   #intitule1, #intitule2, #intitule3, #intitule4, #intitule5, #intitule6 
@@ -848,6 +852,7 @@ a.link_footer:hover {
     height: 100%;
     flex-direction: column;
     padding-bottom: 60px;
+    padding-left: 35px;
   }
   .bloc_footer 
   {
